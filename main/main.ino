@@ -8,7 +8,7 @@ const int heating = 5;
 const int highTemperature = 3; //ºC
 const int lowTemperature = -3; //ºC
 const int errorTemperature = -100; // when sensor failed temperature is -127ºC
-const int pollDelaySeconds = 5 * 60 * 10; // is seconds, must be multiple of 10
+const int pollDelaySeconds = 60 * 6 * 10; // in minutes
 
 int temperatureCounter = 0;
 int blinkCounter = 0;
